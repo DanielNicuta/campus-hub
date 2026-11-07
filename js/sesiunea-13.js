@@ -239,3 +239,18 @@ console.log("|----------- | End Exercitiu 8 | ---------------|");
      tipul.
    GREȘEALĂ FRECVENTĂ: Scrii typeof "40" și te miri că iese string: ghilimelele fac din
      cifre un text. */
+console.log("|----------- | Tema | ---------------|");
+let meetupNume = "Ceva";
+let meetupZi = 7;
+let meetupOra = 10;
+let meetupPret = 100;
+let meetupNumarLocuri = 50;
+let meetupNumarLocuriLibere = 18;
+let meetupMaiSuntLocuri = meetupNumarLocuri - meetupNumarLocuriLibere > 0;
+let ceva;
+
+console.log("Locuri libere: ", meetupNumarLocuriLibere);
+console.log("Variablia Nume", typeof meetupNume);
+console.log("Variablia Pret", typeof meetupPret);
+console.log("Variablia Mai Sunt Locuri", typeof meetupMaiSuntLocuri);
+console.log("|----------- | End Tema | ---------------|");
